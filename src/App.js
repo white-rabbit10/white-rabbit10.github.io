@@ -2,7 +2,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import AboutMe from './AboutMe/AboutMe';
-import './App.css';
 import Home from './Home/Home';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";

@@ -1,5 +1,5 @@
 import React from "react";
-import { Row, Col, Card, CardTitle, CardText, Button } from "reactstrap";
+import { Row, Col, Card, CardText } from "reactstrap";
 import Param from '../images/Param.png'
 
 const Recommendations = () => {
