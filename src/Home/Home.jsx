@@ -30,7 +30,7 @@ const Home = () => {
                             <h2>Hi all! <span className="wave">👋</span></h2>
                             <h4>I'm Srishti Sachan</h4>
                             <h6>Software Engineer @BP</h6>
-                            <h6>Bangalore,India</h6>
+                            <h6>Bangalore, India</h6>
                             {/* <h6>Computer Science Graduate Student</h6> */}
                             {/* <h6>@University of Southern California, Los Angeles, USA</h6> */}
                             <div style={{ marginTop: '10px' }}>
