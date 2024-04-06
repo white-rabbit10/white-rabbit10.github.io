@@ -12,8 +12,11 @@ const AboutMe = () => {
                     <h2 style={{textAlign: 'center'}}>Get to Know Me {' '}<img src={GetToKnowMe} alt="Get To Know Me" 
                                 style={{marginBottom: '15px', height: '40px'}} /></h2>
                     <div style={{fontSize: '18px', marginTop: '15px'}}>
-                        <p>Hi there! I'm thrilled to have you here. My name is Srishti Sachan, and I'm passionate about all things tech. 
+                        {/* <p>Hi there! I'm thrilled to have you here. My name is Srishti Sachan, and I'm passionate about all things tech. 
                             I'm a Computer Science graduate student at the University of Southern California, Los Angeles.
+                        </p> */}
+                        <p>Hi there! I'm thrilled to have you here. My name is Srishti Sachan, and I'm passionate about all things tech. 
+                            I'm a Software Developer at British Petroleum.
                         </p>
 
                         <p>"Life is a series of natural and spontaneous changes. Don’t resist them." My journey into the realm of computer science began when I recognized that mathematics is to the computer what 
