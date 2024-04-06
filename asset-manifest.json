@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.45f8336e.css",
+    "main.js": "/static/js/main.2ff5c271.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/SrishtiSachan.jpg": "/static/media/SrishtiSachan.f1b06dfa4883f23c95b5.jpg",
+    "static/media/UserAvatar.jpg": "/static/media/UserAvatar.0d95660cbddf63a07a8a.jpg",
+    "static/media/Ritwik.png": "/static/media/Ritwik.d01c4755f5f0a6dbaf9f.png",
+    "static/media/Param.png": "/static/media/Param.43313a20c3fecface13d.png",
+    "static/media/Agamya.png": "/static/media/Agamya.d040be35d7db31d7cbd1.png",
+    "static/media/Vaishnavi.png": "/static/media/Vaishnavi.870200441c195ac8051e.png",
+    "static/media/amazon-logo.png": "/static/media/amazon-logo.dbeab6c96e03d725e0d0.png",
+    "static/media/BPLogo.png": "/static/media/BPLogo.33127acf13416234e94d.png",
+    "static/media/slbLogo.png": "/static/media/slbLogo.d98c63e1ac8d2681754a.png",
+    "static/media/GetToKnowMe.png": "/static/media/GetToKnowMe.55e5d40e82ce3175fd0a.png",
+    "index.html": "/index.html",
+    "main.45f8336e.css.map": "/static/css/main.45f8336e.css.map",
+    "main.2ff5c271.js.map": "/static/js/main.2ff5c271.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.45f8336e.css",
+    "static/js/main.2ff5c271.js"
+  ]
+}
