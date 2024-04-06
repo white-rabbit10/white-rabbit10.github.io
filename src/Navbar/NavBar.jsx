@@ -36,6 +36,11 @@ const NavBar = () => {
     const redirectToWorkExperience = () => {
         navigate("/workExperience");
     }
+
+    const redirectToRecommendations = () => {
+        navigate("/recommendations");
+    }
+    
     return (
         <Navbar color="light" light expand="md" style={{fontFamily: 'Roboto', fontSize: '18px'}}>
             <NavbarBrand onClick={redirectToHomePage} style={{ cursor: 'pointer' }}>
@@ -48,6 +53,11 @@ const NavBar = () => {
                     <NavItem>
                         <NavLink onClick={redirectToWorkExperience} style={{ cursor: 'pointer' }}>
                             Work Experiences
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink onClick={redirectToRecommendations} style={{ cursor: 'pointer' }}>
+                            Recommendations
                         </NavLink>
                     </NavItem>
                     <NavItem>

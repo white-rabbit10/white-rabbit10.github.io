@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "../Navbar/NavBar";
-import Recommendations from "./Recommendations";
 import Coffee from '../images/Coffee.gif';
 import GetToKnowMe from '../images/GetToKnowMe.png'
 
@@ -9,7 +8,7 @@ const AboutMe = () => {
         <div>
             <NavBar />
             <div style={{fontFamily: 'Roboto'}}>
-                <div className="container" style={{marginTop:'20px', background: '#fff', color: '#000', textAlign: 'justify'}}>
+                <div className="container" style={{marginTop:'50px', background: '#fff', color: '#000', textAlign: 'justify'}}>
                     <h2 style={{textAlign: 'center'}}>Get to Know Me {' '}<img src={GetToKnowMe} alt="Get To Know Me" 
                                 style={{marginBottom: '15px', height: '40px'}} /></h2>
                     <div style={{fontSize: '18px', marginTop: '15px'}}>
@@ -39,11 +38,6 @@ const AboutMe = () => {
                         <br/>
                     </div>
                 </div>
-                <div className="container" style={{marginTop: '30px'}}>
-                    <h3 style={{textAlign: 'center'}}>What some cool people say about me!</h3>
-                    <Recommendations />
-                </div>
-                <br /> <br/>
             </div>
         </div>
     );

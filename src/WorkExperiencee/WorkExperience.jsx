@@ -9,18 +9,18 @@ const WorkExperience = () => {
     return (
         <div>
             <NavBar/>
-            <div className="container" >
-                <h2 style={{textAlign: 'center', marginTop: '20px'}}>Work Experiences</h2>
-                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '10px'}}>
-                    <Card style={{width: '25rem', background: '#ede3ed', marginRight: '50px'}}>
+            <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <h2 style={{ textAlign: 'center', marginTop: '20px' }}>Work Experiences</h2>
+                <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'stretch', marginTop: '10px' }}>
+                    <Card style={{ flex: 1, maxWidth: '25rem', background: '#ede3ed', margin: '0 10px' }}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img 
-                                src={BPLogo} 
-                                alt="Amazon Logo"
-                                style={{ height: 200, width: 260 }} 
+                            <img
+                                src={BPLogo}
+                                alt="BP Logo"
+                                style={{ height: 200, width: 260 }}
                             />
                         </div>
-                        <CardBody style={{textAlign: 'center'}}>
+                        <CardBody style={{ textAlign: 'center' }}>
                             <CardTitle tag="h5">
                                 Software Engineer
                             </CardTitle>
@@ -36,7 +36,7 @@ const WorkExperience = () => {
                                         Designed, developed, and maintained features for the SIFT application.
                                     </li>
                                     <li>
-                                        Implemented optimized algorithms to improve the performance of the SIFT application, identified bugs, 
+                                        Implemented optimized algorithms to improve the performance of the SIFT application, identified bugs,
                                         and refactored the code for efficiency and optimization.
                                     </li>
                                     <li>
@@ -49,15 +49,15 @@ const WorkExperience = () => {
                             </CardText>
                         </CardBody>
                     </Card>
-                    <Card style={{width: '25rem', background: '#ede3ed'}}>
+                    <Card style={{ flex: 1, maxWidth: '25rem', background: '#ede3ed', margin: '0 10px' }}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img 
-                                src={AmazonLogo} 
+                            <img
+                                src={AmazonLogo}
                                 alt="Amazon Logo"
-                                style={{ height: 200, width: 260 }} 
+                                style={{ height: 200, width: 260 }}
                             />
                         </div>
-                        <CardBody style={{textAlign: 'center'}}>
+                        <CardBody style={{ textAlign: 'center' }}>
                             <CardTitle tag="h5">
                                 Software Development Engineer - 1
                             </CardTitle>
@@ -68,31 +68,31 @@ const WorkExperience = () => {
                                 Nov 2021 - Mar 2022
                             </CardSubtitle>
                             <CardText style={{ textAlign: 'left' }}>
-                            <ul style={{ paddingLeft: '20px'}}>
-                                <li>
-                                    Designed and developed features, including a real-time budget consumption notification service and multiple APIs 
-                                    for advertisers to access daily click-level advertisement data.
-                                </li>
-                                <li>
-                                    Took the initiative to mitigate SAS risks, contributed to the cost optimization of AWS resources and 
-                                    scaled up services for Amazon Prime Day.
-                                </li>
-                                <li>
-                                    Utilized technologies such as Java, and AWS services in the project.
-                                </li>
-                            </ul>
+                                <ul style={{ paddingLeft: '20px' }}>
+                                    <li>
+                                        Designed and developed features, including a real-time budget consumption notification service and multiple APIs
+                                        for advertisers to access daily click-level advertisement data.
+                                    </li>
+                                    <li>
+                                        Took the initiative to mitigate SAS risks, contributed to the cost optimization of AWS resources and
+                                        scaled up services for Amazon Prime Day.
+                                    </li>
+                                    <li>
+                                        Utilized technologies such as Java, and AWS services in the project.
+                                    </li>
+                                </ul>
                             </CardText>
                         </CardBody>
                     </Card>
-                    <Card style={{width: '25rem', background: '#ede3ed', marginLeft: '50px'}}>
+                    <Card style={{ flex: 1, maxWidth: '25rem', background: '#ede3ed', margin: '0 10px' }}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>
-                            <img 
-                                src={SLBLogo} 
-                                alt="Amazon Logo"
-                                style={{ height: 200, width: 260 }} 
+                            <img
+                                src={SLBLogo}
+                                alt="Schlumberger Logo"
+                                style={{ height: 200, width: 260 }}
                             />
                         </div>
-                        <CardBody style={{textAlign: 'center'}}>
+                        <CardBody style={{ textAlign: 'center' }}>
                             <CardTitle tag="h5">
                                 Software Engineer
                             </CardTitle>
@@ -105,7 +105,7 @@ const WorkExperience = () => {
                             <CardText style={{ textAlign: 'left' }}>
                                 <ul style={{ paddingLeft: '20px' }}>
                                     <li>
-                                        Designed and developed user administration features to manage user access for the Global Activity Capture 
+                                        Designed and developed user administration features to manage user access for the Global Activity Capture
                                         (GAC) application.
                                     </li>
                                     <li>
@@ -114,7 +114,6 @@ const WorkExperience = () => {
                                     <li>
                                         Utilized technologies such as Angular, Java, SQL and Azure DevOps in the project.
                                     </li>
-                                    <br/> <br/>
                                 </ul>
                             </CardText>
                         </CardBody>

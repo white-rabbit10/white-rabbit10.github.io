@@ -10,7 +10,7 @@ import './Home.css';
 
 const Home = () => {
     const handleDownload = () => {
-        saveAs('/Resume.pdf', 'Resume.pdf');
+        saveAs('/ResumeOld.pdf', 'Resume.pdf');
     }
     return (
         <div style={{height: '100vh'}}>
@@ -25,14 +25,14 @@ const Home = () => {
                             style={{ height: 350, width: 380 }} 
                         />
                     </div>
-                    <CardBody>
-                        <CardText style={{textAlign: 'center'}}>
-                            <h2>Hi all! <span class="wave">👋</span></h2>
+                    <CardBody style={{textAlign: 'center'}}>
+                        <CardText>
+                            <h2>Hi all! <span className="wave">👋</span></h2>
                             <h4>I'm Srishti Sachan</h4>
                             <h6>Computer Science Graduate Student</h6>
                             <h6>@University of Southern California, Los Angeles, USA</h6>
                             <div style={{ marginTop: '10px' }}>
-                                <a href="mailto:sachansrishti2024@.com" rel="noopener noreferrer">
+                                <a href="mailto:sachansrishti2024@gmail.com" rel="noopener noreferrer">
                                     <FontAwesomeIcon icon={faEnvelope} className="icon icon-envelope" />
                                 </a>
                                 <a href="tel:+918698627902" rel="noopener noreferrer">

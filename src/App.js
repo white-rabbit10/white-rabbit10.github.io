@@ -7,6 +7,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { particlesOptions } from "./particlesConfig";
 import WorkExperience from './WorkExperiencee/WorkExperience';
+import Recommendations from './AboutMe/Recommendations';
 
 function App() {
   const particlesInit = (engine) => {
@@ -22,6 +23,7 @@ function App() {
             <Route path="/" exact Component={Home} />
             <Route path="/aboutMe" Component={AboutMe} />
             <Route path="/workExperience" Component={WorkExperience} />
+            <Route path="/recommendations" Component={Recommendations} />
           </Routes>
         </div>
       </div>
