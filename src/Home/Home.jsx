@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { saveAs } from "file-saver";
 import React from "react";
 import { Button, Card, CardBody, CardText } from "reactstrap";
+import { styles } from "../commons/commonStyles";
 import UserAvatar from '../images/UserAvatar.jpg';
-import NavBar from "../Navbar/NavBar";
+import NavBar from "../navbar/NavBar";
 import './Home.css';
 
 const Home = () => {
@@ -13,10 +14,9 @@ const Home = () => {
         saveAs('/ResumeOld.pdf', 'Resume.pdf');
     }
     return (
-        <div style={{height: '100vh'}}>
+        <div style={{...styles.common, alignItems: 'center'}}>
             <NavBar />
-            <div className="container" 
-                style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '35px'}}>
+            <div style={{ alignItems: 'center'}}>
                 <Card style={{width: '30rem', background: '#ede3ed'}}>
                     <div style={{ display: 'flex', justifyContent: 'center' }}>
                         <img 

@@ -33,16 +33,24 @@ const NavBar = () => {
         navigate("/aboutMe"); 
     }
 
-    const redirectToWorkExperience = () => {
-        navigate("/workExperience");
+    const redirectToTimeline = () => {
+        navigate("/timeline");
+    }
+
+    const redirectToSkills = () => {
+        navigate("/skills");
     }
 
     const redirectToRecommendations = () => {
         navigate("/recommendations");
     }
-    
+
+    const redirectToProjects = () => {
+        navigate("/projects");
+    }
+
     return (
-        <Navbar color="light" light expand="md" style={{fontFamily: 'Roboto', fontSize: '18px'}}>
+        <Navbar color="light" light expand="md" fixed="top" style={{fontFamily: 'Roboto', fontSize: '18px', height: '55px'}}>
             <NavbarBrand onClick={redirectToHomePage} style={{ cursor: 'pointer' }}>
                 <FontAwesomeIcon icon={faBlogger}/>
                 {' '} Srishti Sachan
@@ -51,18 +59,28 @@ const NavBar = () => {
             <Collapse isOpen={isOpen} navbar>
                 <Nav className="me-auto" navbar>
                     <NavItem>
-                        <NavLink onClick={redirectToWorkExperience} style={{ cursor: 'pointer' }}>
-                            Work Experiences
+                        <NavLink onClick={redirectToTimeline} style={{ cursor: 'pointer' }}>
+                            Career Path 
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink onClick={redirectToSkills} style={{ cursor: 'pointer' }}>
+                            Technical Skills
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink onClick={redirectToRecommendations} style={{ cursor: 'pointer' }}>
-                            Recommendations
+                            Endorsements
+                        </NavLink>
+                    </NavItem>
+                    <NavItem>
+                        <NavLink onClick={redirectToProjects} style={{ cursor: 'pointer' }}>
+                            Work Showcase 
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink href={Resume} target={'_blank'} style={{ cursor: 'pointer' }}>
-                            Resume
+                            My Resume
                         </NavLink>
                     </NavItem>
                     <UncontrolledDropdown nav inNavbar>

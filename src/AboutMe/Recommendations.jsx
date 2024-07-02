@@ -4,15 +4,39 @@ import Param from '../images/Param.png';
 import Vaishnavi from '../images/Vaishnavi.png';
 import Agamya from '../images/Agamya.png';
 import Ritwik from '../images/Ritwik.png';
-import NavBar from "../Navbar/NavBar";
+import Sumit from '../images/sumit.png';
+import NavBar from "../navbar/NavBar";
+import { styles } from "../commons/commonStyles";
 
 const Recommendations = () => {
     return (
-       <div>
+       <div style={{...styles.common, marginTop: '55px'}}>
             <NavBar />
-            <div className="container" style={{marginTop: '30px', fontFamily: 'Roboto'}}>
+            <div className="container" style={{marginTop: '20px', fontFamily: 'Roboto'}}>
                 <h3 style={{textAlign: 'center'}}>What some cool people say about me!</h3>
                 <div style={{color: '#000'}}>
+                    <Row style={{marginTop: '20px'}}>
+                        <Col >
+                            <Card body style={{ display: 'flex', alignItems: 'center', fontStyle: 'italic' }}>
+                                <CardText>
+                                    <span style={{ display: 'flex', alignItems: 'center'}}>
+                                        I  had the pleasure of working with Srishti at bp, where she consistently demonstrated her exceptional 
+                                        skills in both dotnet and React. Her contributions have been nothing short of outstanding, significantly 
+                                        enhancing our projects and driving our team’s success. Srishti’s technical expertise is complemented by her 
+                                        proactive attitude and her ability to solve complex problems efficiently. She is a true asset to any team, 
+                                        and I highly recommend her for any challenging role in software development.
+                                        <img 
+                                            src={Sumit} 
+                                            alt="Recommender"
+                                            style={{ height: 150, marginLeft: '20px'}} 
+                                        />
+                                    </span>
+                                </CardText>
+                                <a href="https://www.linkedin.com/in/sumit-patro-5b6bb515b/" target="_blank" rel="noopener noreferrer" 
+                                    style={{ marginRight: 'auto', marginTop: '-20px' }}   >- Sumit Patro</a>
+                            </Card>
+                        </Col>
+                    </Row>
                     <Row style={{marginTop: '20px'}}>
                         <Col >
                             <Card body style={{ display: 'flex', alignItems: 'center', fontStyle: 'italic' }}>

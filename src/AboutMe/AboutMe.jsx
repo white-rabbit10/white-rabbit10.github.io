@@ -1,14 +1,15 @@
 import React from "react";
-import NavBar from "../Navbar/NavBar";
+import NavBar from "../navbar/NavBar";
 import Coffee from '../images/Coffee.gif';
 import GetToKnowMe from '../images/GetToKnowMe.png'
+import { styles } from "../commons/commonStyles";
 
 const AboutMe = () => {
     return (
-        <div>
+        <div style={{...styles.common, alignItems: 'center'}}>
             <NavBar />
-            <div style={{fontFamily: 'Roboto'}}>
-                <div className="container" style={{marginTop:'50px', background: '#fff', color: '#000', textAlign: 'justify'}}>
+            <div style={{fontFamily: 'Roboto', alignItems: 'center'}}>
+                <div className="container" style={{background: '#fff', color: '#000', textAlign: 'justify'}}>
                     <h2 style={{textAlign: 'center'}}>Get to Know Me {' '}<img src={GetToKnowMe} alt="Get To Know Me" 
                                 style={{marginBottom: '15px', height: '40px'}} /></h2>
                     <div style={{fontSize: '18px', marginTop: '15px'}}>

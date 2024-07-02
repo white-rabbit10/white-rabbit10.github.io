@@ -1,16 +1,16 @@
 import React from "react";
 import { Card, CardBody, CardSubtitle, CardText, CardTitle } from "reactstrap";
-import NavBar from "../Navbar/NavBar";
+import NavBar from "../navbar/NavBar";
 import AmazonLogo from "../images/amazon-logo.png";
 import BPLogo from "../images/BPLogo.png";
 import SLBLogo from "../images/slbLogo.png";
+import { styles } from "../commons/commonStyles";
 
 const WorkExperience = () => {
     return (
-        <div>
+        <div style={{...styles.common, alignItems: 'center'}}>
             <NavBar/>
             <div className="container" style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                <h2 style={{ textAlign: 'center', marginTop: '20px' }}>Work Experiences</h2>
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'stretch', marginTop: '10px' }}>
                     <Card style={{ flex: 1, maxWidth: '25rem', background: '#ede3ed', margin: '0 10px' }}>
                         <div style={{ display: 'flex', justifyContent: 'center' }}>

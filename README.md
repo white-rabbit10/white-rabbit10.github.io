@@ -40,6 +40,4 @@ This project is released under the MIT LICENSE. You can find the specific terms 
 ### Build Your Portfolio:
 Feel free to incorporate this project into your personal portfolio! Showcase your skills and creativity by featuring your adaptations or implementations of this project. Just make sure to follow the guidelines of the MIT License while doing so.
 
-Happy coding!
-
 <h1 align=center> Happy coding! </h1>

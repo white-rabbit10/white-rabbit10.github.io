@@ -1,13 +1,16 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import AboutMe from './AboutMe/AboutMe';
-import Home from './Home/Home';
+import AboutMe from './aboutMe/AboutMe';
+import Home from './home/Home';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import { particlesOptions } from "./particlesConfig";
-import WorkExperience from './WorkExperiencee/WorkExperience';
-import Recommendations from './AboutMe/Recommendations';
+// import WorkExperience from './workExperiencee/WorkExperience';
+import Recommendations from './aboutMe/Recommendations';
+import Timeline from './timeline/Timeline';
+import Skills from './skills/Skills';
+import Projects from './projects/Projects';
 
 function App() {
   const particlesInit = (engine) => {
@@ -22,8 +25,11 @@ function App() {
           <Routes>
             <Route path="/" exact Component={Home} />
             <Route path="/aboutMe" Component={AboutMe} />
-            <Route path="/workExperience" Component={WorkExperience} />
+            {/* <Route path="/workExperience" Component={WorkExperience} /> */}
             <Route path="/recommendations" Component={Recommendations} />
+            <Route path="/timeline" Component={Timeline} />
+            <Route path="/skills" Component={Skills} />
+            <Route path="/projects" Component={Projects} />
           </Routes>
         </div>
       </div>
