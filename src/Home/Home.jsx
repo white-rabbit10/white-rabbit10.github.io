@@ -11,7 +11,7 @@ import './Home.css';
 
 const Home = () => {
     const handleDownload = () => {
-        saveAs('/ResumeOld.pdf', 'Resume.pdf');
+        saveAs('/Srishti_4Yrs.pdf', 'Resume.pdf');
     }
     return (
         <div style={{...styles.common, alignItems: 'center'}}>
